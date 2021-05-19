@@ -123,23 +123,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=BLDC_DRIVER.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BMOGEHDK
 
-[Document8]
+[Document7]
 DocumentPath=MosfetDriver.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=TopLevel.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=BEMF_Sense.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LEMAJJBV
 
-[Document11]
+[Document10]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -222,24 +205,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KRONKSGQ
-
-[Document12]
-DocumentPath=Job1.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HKLFVNOW
 
 [Configuration1]
 Name=Sources
@@ -399,7 +365,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Xerox Phaser 3020 XPS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1296,7 +1262,7 @@ IndexStartValue5=1
 Suffix5=
 
 [PrjClassGen]
-CompClassManualEnabled=0
+CompClassManualEnabled=1
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
@@ -1330,10 +1296,121 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=DIR|NetColor=$007F0311
-Net2=NetName=OUT|NetColor=$007F0311
-Net3=NetName=SCL|NetColor=$007F0311
-Net4=NetName=SDA|NetColor=$007F0311
+Net1=NetName=BEMF_Out1|NetColor=$00FFFF6E
+Net2=NetName=BEMF_Out2|NetColor=$00FFFF6E
+Net3=NetName=BEMF_Out3|NetColor=$00FFFF6E
+Net4=NetName=BEMF_REF|NetColor=clYellow
+Net5=NetName=BEMF_Sense1|NetColor=$00FFFF6E
+Net6=NetName=BEMF_Sense2|NetColor=$00FFFF6E
+Net7=NetName=BEMF_Sense3|NetColor=$00FFFF6E
+Net8=NetName=BEMF1|NetColor=$0000BE00
+Net9=NetName=BEMF2|NetColor=$0000BE00
+Net10=NetName=BEMF3|NetColor=$0000BE00
+Net11=NetName=DRV_HO1|NetColor=clWhite
+Net12=NetName=DRV_HO2|NetColor=clWhite
+Net13=NetName=DRV_HO3|NetColor=clWhite
+Net14=NetName=DRV_LO1|NetColor=clWhite
+Net15=NetName=DRV_LO2|NetColor=clWhite
+Net16=NetName=DRV_LO3|NetColor=clWhite
+Net17=NetName=DTR|NetColor=$0003868E
+Net18=NetName=HIN1|NetColor=clWhite
+Net19=NetName=HIN2|NetColor=clWhite
+Net20=NetName=HIN3|NetColor=clWhite
+Net21=NetName=HO1|NetColor=clYellow
+Net22=NetName=HO2|NetColor=clYellow
+Net23=NetName=HO3|NetColor=clYellow
+Net24=NetName=LIN1|NetColor=clWhite
+Net25=NetName=LIN2|NetColor=clWhite
+Net26=NetName=LIN3|NetColor=clWhite
+Net27=NetName=LO1|NetColor=$008BCBFF
+Net28=NetName=LO2|NetColor=$008BCBFF
+Net29=NetName=LO3|NetColor=$008BCBFF
+Net30=NetName=MISO|NetColor=clMaroon
+Net31=NetName=MOS_VS1|NetColor=$0000BE00
+Net32=NetName=MOS_VS2|NetColor=$0000BE00
+Net33=NetName=MOS_VS3|NetColor=$0000BE00
+Net34=NetName=MOSI|NetColor=clMaroon
+Net35=NetName=NetC?_1|NetColor=$00233811
+Net36=NetName=NetC?_2|NetColor=$006EA300
+Net37=NetName=NetC1_2|NetColor=$0000BE00
+Net38=NetName=NetC11_2|NetColor=$008A1248
+Net39=NetName=NetC19_2|NetColor=$008E0033
+Net40=NetName=NetC20_2|NetColor=$008A1248
+Net41=NetName=NetC26_1|NetColor=$005426D6
+Net42=NetName=NetC26_2|NetColor=$005426D6
+Net43=NetName=NetC3_2|NetColor=$0000BE00
+Net44=NetName=NetC5_2|NetColor=$008A1248
+Net45=NetName=NetC8_1|NetColor=$008E0033
+Net46=NetName=NetC8_2|NetColor=$002E619F
+Net47=NetName=NetIC1_5|NetColor=$008BCBFF
+Net48=NetName=NetIC1_7|NetColor=clYellow
+Net49=NetName=NetIC2_5|NetColor=$008BCBFF
+Net50=NetName=NetIC2_7|NetColor=clYellow
+Net51=NetName=NetIC3_5|NetColor=$008BCBFF
+Net52=NetName=NetIC3_7|NetColor=clYellow
+Net53=NetName=NetQ?_1|NetColor=$0000BE00
+Net54=NetName=NetQ?_4|NetColor=$0000BE00
+Net55=NetName=NetQ1_1|NetColor=$0000BE00
+Net56=NetName=NetQ1_4|NetColor=$006A00A1
+Net57=NetName=NetQ2_1|NetColor=$0000BE00
+Net58=NetName=NetQ2_4|NetColor=$006A00A1
+Net59=NetName=NetQ3_4|NetColor=$00101049
+Net60=NetName=NetQ4_4|NetColor=$00101049
+Net61=NetName=NetQ5_1|NetColor=$0000BE00
+Net62=NetName=NetQ5_4|NetColor=$006A00A1
+Net63=NetName=NetQ6_4|NetColor=$00101049
+Net64=NetName=NetR?_1|NetColor=$007BA5FF
+Net65=NetName=NetR?_2|NetColor=$00B1B5EF
+Net66=NetName=NetR12_1|NetColor=clYellow
+Net67=NetName=NetR14_1|NetColor=$008BCBFF
+Net68=NetName=NetR15_1|NetColor=$006A00A1
+Net69=NetName=NetR17_1|NetColor=$00101049
+Net70=NetName=NetR19_1|NetColor=clMaroon
+Net71=NetName=NetR25_1|NetColor=$008E0033
+Net72=NetName=NetR28_2|NetColor=$002E619F
+Net73=NetName=NetR33_1|NetColor=$00DB208A
+Net74=NetName=NetR33_2|NetColor=$0020F2F1
+Net75=NetName=NetR4_1|NetColor=clYellow
+Net76=NetName=NetR5_1|NetColor=clYellow
+Net77=NetName=NetR8_1|NetColor=$008BCBFF
+Net78=NetName=NetR9_1|NetColor=$008BCBFF
+Net79=NetName=NetU?_10|NetColor=clWhite
+Net80=NetName=NetU?_11|NetColor=clWhite
+Net81=NetName=NetU?_12|NetColor=clWhite
+Net82=NetName=NetU?_18|NetColor=clWhite
+Net83=NetName=NetU?_19|NetColor=clWhite
+Net84=NetName=NetU?_20|NetColor=clWhite
+Net85=NetName=NetU?_25|NetColor=$006E6EFF
+Net86=NetName=NetU?_26|NetColor=$006E6EFF
+Net87=NetName=NetU?_27|NetColor=$006E6EFF
+Net88=NetName=NetU?_29|NetColor=$006E6EFF
+Net89=NetName=NetU?_30|NetColor=$006E6EFF
+Net90=NetName=NetU?_31|NetColor=$006E6EFF
+Net91=NetName=NetU1_10|NetColor=$00AC5DE8
+Net92=NetName=NetU1_18|NetColor=$00C1D672
+Net93=NetName=NetU1_19|NetColor=$00C1D672
+Net94=NetName=NetU1_20|NetColor=$00C1D672
+Net95=NetName=NetU1_23|NetColor=$00FFFF6E
+Net96=NetName=NetU1_24|NetColor=$00FFFF6E
+Net97=NetName=NetU1_25|NetColor=$00FFFF6E
+Net98=NetName=NetU1_26|NetColor=$006E0066
+Net99=NetName=NetU1_27|NetColor=$006E0066
+Net100=NetName=NetU1_29|NetColor=$006E0066
+Net101=NetName=NetU1_30|NetColor=$006E0066
+Net102=NetName=NetU1_31|NetColor=$006E0066
+Net103=NetName=OSC_IN|NetColor=$008E00C5
+Net104=NetName=OSC_OUT|NetColor=$008E00C5
+Net105=NetName=PWM_IN|NetColor=$007F0311
+Net106=NetName=RESET|NetColor=$000083FD
+Net107=NetName=RXD|NetColor=$0003868E
+Net108=NetName=SCK|NetColor=clMaroon
+Net109=NetName=SWDCLK|NetColor=$007F0311
+Net110=NetName=SWDIO|NetColor=$007F0311
+Net111=NetName=TXD|NetColor=$0003868E
+Net112=NetName=V_GND|NetColor=$00AC5DE8
+Net113=NetName=VBAT|NetColor=$004A5C24
+Net114=NetName=VCC|NetColor=$006FE3B7
+Net115=NetName=VGND|NetColor=$00AC5DE8
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
